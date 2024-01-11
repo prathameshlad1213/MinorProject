@@ -1,0 +1,53 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #eee;
+    color: #333;
+    line-height: 1.6;
+}
+
+header, footer {
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.menu-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.menu-item h3 {
+    margin: -20px -20px 20px;
+    padding: 10px;
+    border-radius: 8px 8px 0 0;
+    color: white;
+    background-color: #574b90; /* Purple */
+}
+
+/* Color Styles for Different Categories */
+.menu-item p {
+    margin-bottom: 10px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #444;
+}

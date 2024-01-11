@@ -1,0 +1,71 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5; /* Soft background */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Full viewport height */
+}
+
+header {
+    background-color: #333131; /* Dark Gray */
+    padding: 30px;
+    text-align: center;
+    color: #d4af37; /* Golden text */
+}
+
+main {
+    padding: 20px;
+    flex-grow: 1; /* Allows main content to grow and fill space */
+}
+
+footer {
+    background-color: #333333;
+    padding: 10px;
+    text-align: center;
+    color: #d4af37; /* Golden text */
+}
+
+/* Homepage Styles */
+.hotel-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center content vertically in main */
+    flex-grow: 1; /* Allows container to grow and fill space */
+}
+
+.hotel-image img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    border: 5px solid #d4af37; /* Golden border */
+}
+
+.button-group {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #2196f3; /* Blue */
+    color: white;
+    padding: 15px 30px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 15px;
+    transition: background-color 0.3s;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid #d4af37; /* Golden border */
+}
+
+.btn:hover {
+    background-color: #0e71db; /* Darker Blue on hover */
+    color: #d4af37; /* Golden text on hover */
+}
